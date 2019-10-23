@@ -1,15 +1,16 @@
 package exercise1;
+import java.util.*;
 
 public class Exercise1 {
 	public Employee buildFixedSalaryEmployee(String name, int fixedSalary) {
-		return null;
+		return new buildFixedSalaryEmployee(name, fixedSalary);
 	}
 
 	public Employee buildBaseSalaryPlusCommissionEmployee(String name, int baseSalary, int commission) {
-		return null;
+		return new buildBaseSalaryPlusCommissionEmployee(name, baseSalary, commission);
 	}
 
 	public Employee buildWorkHourSalaryEmployee(String name, int hourlyRoute) {
-		return null;
+		return new buildWorkHourSalaryEmployee(name,hourlyRoute);
 	}
 }
